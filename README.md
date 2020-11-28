@@ -2,7 +2,7 @@
 
 ## 적용 기술
 - Python
-- JavaStrip/Node.js
+- JavaScript/Node.js
 - Firebase
 - Pose Net Model
 
@@ -26,7 +26,7 @@
 - 선정한 플랫폼을 통해 개발을 시작합니다.
 - 본 프로젝트에서는 어떤 디바이스에서도 접근이 가능하도록 웹 페이지로 구현했습니다.
 - 백엔드는 Firebase(Google)를 활용했습니다. Database, 호스팅, 도메인, 데이터 사용량 등 다양한 서비스를 제공합니다.
-- 프론트엔드는 JavaStrip, Node.js를 활용했습니다.
+- 프론트엔드는 JavaScript, Node.js를 활용했습니다.
 
 보다 정확한 내용은 ppt자료를 참고해주시기 바랍니다.
 
