@@ -1,9 +1,11 @@
 # Health_Care_project
 
-## 적용 기술
+## 개발 툴
 - Python
 - JavaScript/Node.js
 - Firebase
+
+## 적용 기술
 - Pose Net Model
 
 ## 배경
