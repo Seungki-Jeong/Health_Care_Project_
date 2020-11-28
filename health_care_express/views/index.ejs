@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <title><%= title%></title>
+ <% include part/header.ejs %>
+
+</head>
+<body class="text-center">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+ <header class="masthead mb-auto">
+
+  <div class="inner">
+
+   <h3 class="masthead-brand">Health Care</h3>
+
+   <nav class="nav nav-masthead justify-content-center">
+
+    <% if(pathnames=='/'){%>
+     <a class="nav-link active" href="/">Home</a>
+     <a class="nav-link" href="/squat">Squat</a>
+     <a class="nav-link" href="/contact">Contact</a>
+
+    <%} else if(pathnames=='/squat') {%>
+     <a class="nav-link " href="/">Home</a>
+     <a class="nav-link active" href="/squat">Squat</a>
+     <a class="nav-link" href="/contact">Contact</a>
+
+    <%} else if(pathnames=='/contact') {%>
+     <nav class="nav nav-masthead justify-content-center">
+     <a class="nav-link " href="/">Home</a>
+     <a class="nav-link" href="/squat">Squat</a>
+     <a class="nav-link active" href="/contact">Contact</a>
+    <%}%>
+
+     </nav>
+ </header>
+
+ <% if(pathnames=='/'){%>
+ <% include body/main.ejs %>
+
+ <%} else if(pathnames=='/squat') {%>
+ <% include body/squat.ejs%>
+
+ <%} else if(pathnames=='/contact') {%>
+ <% include body/contact.ejs%>
+ <%}%>
+
+
+</div>
+
+</body>
+
+
+</html>
